@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .layout_container{
+            width:100%;
+            height:250px;
+            border:2px solid black;
+            display:flex;
+            flex-direction:column;
+        }
+        #header{
+            height:50px;
+            width:100%;
+            background-color:grey;
+        }
+        .body{
+            height:150px;
+            width:100%;
+            background-color:lightgrey;
+            text-align: center;
+           
+        }
+        #photo_section{
+            height:80px;
+            width:100px;
+            background-color:red;
+            text-align: center;
+        }
+        .footer{
+            height:50px;
+            width:100%;
+            background-color:grey;
+            display:flex;
+            flex-direction:row;
+            justify-content: space-around;
+
+        }
+        #name, #address, #service{
+            width:30%;
+            height:100%;
+            background-color:magenta;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout_container">
+        <div id="header">Header</div>
+        <div class="body">body
+          <div id="photo_section">photo_section</div>
+        </div>
+        <div class="footer">
+            <div id="name"> kiran Borate</div>
+            <div id="address" style="font-size:small"> A/p ganeshwadi tal.Indapur Dist.Pune</div>
+            <div id="service" style="font-weight:lighter;font-size:10px"> Web Development<br>App Development<br>project Development</div>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
