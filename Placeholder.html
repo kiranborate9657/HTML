@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Input Types Implementation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+        .container {
+            width: 400px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 7px;
+            margin-top: 5px;
+        }
+        .inline {
+            width: auto;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Implementation</h2>
+
+    <!-- Text -->
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your name">
+
+    <!-- Email -->
+    <label>Email</label>
+    <input type="email" placeholder="example@gmail.com">
+
+    <!-- Password -->
+    <label>Password</label>
+    <input type="password" placeholder="Enter password">
+
+    <!-- Number -->
+    <label>Age</label>
+    <input type="number" min="1" max="100">
+
+    <!-- Phone -->
+    <label>Mobile Number</label>
+    <input type="tel" placeholder="9876543210">
+
+    <!-- Date -->
+    <label>Date of Birth</label>
+    <input type="date">
+
+    <!-- Radio -->
+    <label>Gender</label>
+    <input type="radio" name="gender" class="inline"> Male
+    <input type="radio" name="gender" class="inline"> Female
+
+    <!-- Checkbox -->
+    <label>
+        <input type="checkbox" class="inline"> I agree to terms
+    </label>
+
+    <!-- File -->
+    <label>Upload Photo</label>
+    <input type="file">
+
+    <!-- Range -->
+    <label>Experience (0–10)</label>
+    <input type="range" min="0" max="10">
+
+    <!-- Color -->
+    <label>Choose Favorite Color</label>
+    <input type="color">
+
+    <!-- Textarea -->
+    <label>Address</label>
+    <textarea rows="3" placeholder="Enter address"></textarea>
+
+    <!-- Buttons -->
+    <button type="submit">Submit</button>
+    <input type="reset" value="Reset">
+
+</div>
+
+</body>
+</html>
