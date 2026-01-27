@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            height:100vh;
+            width:100vw;
+            background-color:none;
+            background-image: url("https://hoang0211.github.io/netflix-clone/static/media/home-bg.e85ef9d3e583db75072a.jpg");
+            background-size: cover;
+              background-repeat:no-repeat;
+        }
+        .header{
+            height:100px;
+            width:100vw;
+            background:none;
+            display: flex;
+            flex-direction: row;
+        }
+        #logo{
+            width:40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #buttons{
+            width:55%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+            
+          
+
+        }
+        button{
+            height:15px;
+            width:40px;
+            font-size: 8px;
+            background-color: red;
+            border: none;
+            color:white;
+            font-weight: bold;
+        }
+        h1{
+            color:white;
+            margin: 0px;
+        }
+        h5{
+            color:white;
+            margin: 0px;
+        }
+        h6{
+            color:white;
+            margin:10px;
+            font-size: 8px;
+            margin-bottom: 0px;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    
+
+        }
+        #email{
+            background-color:none;
+            border-color: 2px solid white;
+            border-radius: 3px;
+            height:20px;
+            width:150px;
+            
+
+        }
+        #started{
+              background-color:none;
+            border-color: 1px solid black;
+            border-radius: 3px;
+            height:20px;
+            width:90px;
+            
+
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div id="logo">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.AC0iUF7KyK0iqL7HZ2JzcQHaD5?pid=Api&P=0&h=180"height="50px" width="150px">
+        </div>
+        <div id="buttons">
+            <button  >Login</button>
+            <button>Register</button>
+        </div>
+    </div>
+    <div class="main">
+        <h1>Unlimited movies,<br> shows, and more</h1>
+        <h5>Starts at ₹149. Cancel at any time.</h5>
+        <h6>Ready to watch? Enter your email to create or restart your membership.</h6>
+    </div>
+    <div class="footer">
+        <button id="email" >Email Address</button>
+        <button id="started" >Get Started</button>
+    </div>
+
+    
+</body>
+</html>
