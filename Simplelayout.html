@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .container {
+            display: flex;
+            min-height: 300px;
+        }
+
+        .sidebar {
+            width: 30%;
+            background-color: #ddd;
+            padding: 15px;
+        }
+
+        .content {
+            width: 70%;
+            background-color: #f4f4f4;
+            padding: 15px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">Header</div>
+
+    <div class="container">
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Main Content</div>
+    </div>
+
+    <div class="footer">Footer</div>
+
+</body>
+</html>
